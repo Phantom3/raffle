@@ -11,22 +11,18 @@ local variables = {
 };
 
 local player_data ={
-  ['User'] = {'Mapi','Napi','Minimapi'} ,
-  ['Roll'] = {234,434,543} ,
-  ['Count'] = 3
+  ['User'] = {} ,
+  ['Roll'] = {} ,
+  ['Count'] = 0
 };
 
-local raffle_data = {
-  Mapi = 123 ,
-  Napi = 345,
-  MiniMapi = 356
-};
+
 
 local count = 0;
 local user_name ='';
 local user_roll = 0;
 local raffle_status = false;
-local listbox_items = 'Empty';
+
 function  SendCmd(command)
   AshitaCore:GetChatManager():QueueCommand(command, 1);
 end;
