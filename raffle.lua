@@ -1,6 +1,6 @@
 _addon.author = 'Mapi';
 _addon.name = 'Raffle Watch';
-_addon.version = '3.6.9 Beta';
+_addon.version = '3.6.9.000 Beta';
 
 require 'common';
 require 'imguidef';
